@@ -1,8 +1,8 @@
 <?php
 
 use App\Models\Company;
-use ManukMinasyan\FilamentCustomField\Enums\CustomFieldType;
-use ManukMinasyan\FilamentCustomField\Migrations\CustomFieldsMigration;
+use Repwise\CustomFields\Enums\CustomFieldType;
+use Repwise\CustomFields\Migrations\CustomFieldsMigration;
 
 return new class extends CustomFieldsMigration {
     public function up(): void
