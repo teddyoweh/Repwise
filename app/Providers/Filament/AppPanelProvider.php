@@ -72,8 +72,8 @@ final class AppPanelProvider extends PanelProvider
             ->registration()
             ->passwordReset()
             ->emailVerification()
-            ->brandLogoHeight('2.5rem')
-            ->brandLogo(asset('images/logo.svg'))
+            ->brandLogoHeight('2.7rem')
+            ->brandLogo(asset('repwise-logo.svg'))
             ->viteTheme('resources/css/app.css')
             ->colors([
                 'primary' => '#28B6E4'
