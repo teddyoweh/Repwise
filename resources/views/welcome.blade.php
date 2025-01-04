@@ -14,7 +14,7 @@
                     Get Started
                 </a>
                 <a href="https://github.com/repwise/repwise" target="_blank">
-                    <img src="https://img.shields.io/github/stars/repwise/repwise" alt="stars">
+                    <img src="/images/github.svg" alt="stars">
                 </a>
             </div>
 
