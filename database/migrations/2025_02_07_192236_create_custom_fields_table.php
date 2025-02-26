@@ -8,7 +8,8 @@ use Illuminate\Support\Facades\Schema;
 use Repwise\CustomFields\Models\CustomField;
 use Repwise\CustomFields\Support\Utils;
 
-return new class extends Migration {
+return new class extends Migration
+{
     public function up(): void
     {
         /**
