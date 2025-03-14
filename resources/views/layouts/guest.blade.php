@@ -28,7 +28,7 @@
         <div class="flex justify-between items-center py-4">
             <!-- Logo with hover animation -->
             <div class="flex-shrink-0 transition-transform duration-300 hover:scale-105">
-                <a href="{{ url('/') }}" class="flex items-center space-x-1" aria-label="Repwise Home">
+                <a href="{{ url('/') }}" class="flex items-center space-x-2" aria-label="Repwise Home">
                     <img class="h-12 w-auto" src="{{ asset('repwise-logo.svg') }}" alt="Repwise Logo">
                     <span class="font-bold text-lg text-[#4841D5] hidden sm:block">Repwise</span>
                 </a>
