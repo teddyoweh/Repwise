@@ -1,4 +1,3 @@
-<br>
 <p align="center">
   <a href="https://repwise.com">
     <img src="https://repwise.com/repwise-logo.svg" width="100px" alt="Repwise logo" />
