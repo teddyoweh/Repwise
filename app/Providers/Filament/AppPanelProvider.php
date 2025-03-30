@@ -36,6 +36,7 @@ use Laravel\Fortify\Fortify;
 use Laravel\Jetstream\Features;
 use Laravel\Jetstream\Jetstream;
 use Repwise\CustomFields\CustomFieldsPlugin;
+use Repwise\Flowforge\FlowforgePlugin;
 
 final class AppPanelProvider extends PanelProvider
 {
