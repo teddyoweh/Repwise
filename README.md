@@ -6,7 +6,7 @@
 
 <h2 align="center" >The Next-Generation Open-Source CRM Platform</h3>
 
-<p align="center"><a href="https://repwise.com">🌐 Website</a> · <a href="https://repwise.com/developers">📚 Documentation</a> · <a href="https://github.com/orgs/Repwise/projects/1/views/1">🛣️ Roadmap </a>
+<p align="center"><a href="https://repwise.com">🌐 Website</a> · <a href="https://repwise.com/documentation">📚 Documentation</a> · <a href="https://github.com/orgs/Repwise/projects/1/views/1">🛣️ Roadmap </a>
 <p>
 <br />
 
