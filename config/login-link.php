@@ -19,7 +19,7 @@ return [
         'localhost',
         '127.0.0.1',
         'repwise-app.test',
-        'app.repwise-app.test'
+        'app.repwise-app.test',
     ],
 
     /*

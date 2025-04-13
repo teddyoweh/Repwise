@@ -16,6 +16,9 @@ use Repwise\CustomFields\Models\Concerns\UsesCustomFields;
 use Repwise\CustomFields\Models\Contracts\HasCustomFields;
 use Spatie\EloquentSortable\SortableTrait;
 
+/**
+ * @property int $id
+ */
 #[ObservedBy(TaskObserver::class)]
 final class Task extends Model implements HasCustomFields
 {
