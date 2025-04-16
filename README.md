@@ -30,6 +30,16 @@ Repwise comes with comprehensive documentation:
 - [Technical Guide](resources/markdown/technical-guide.md) - Architecture and development information
 - [API Documentation](resources/markdown/api-guide.md) - Integration with the Repwise API
 
+## Premium Component
+
+Repwise includes one premium component in its ecosystem - the **Data Model (Custom Fields)** plugin. This Filament plugin is developed by Repwise and provides powerful dynamic data management capabilities throughout the application.
+
+For detailed information about this component, see:
+- **Documentation**: [custom-fields.repwise.com/introduction](https://custom-fields.repwise.com/introduction)
+- **Marketplace**: [filamentphp.com/plugins/repwise-custom-fields](https://filamentphp.com/plugins/repwise-custom-fields)
+
+This is the only paid component in the Repwise ecosystem and represents a significant intellectual property investment that enables the platform's flexible data modeling capabilities.
+
 ## Installation
 
 Repwise is a regular Laravel application; it's build on top of Laravel 12 / Filament 3 and uses Livewire / Tailwind
