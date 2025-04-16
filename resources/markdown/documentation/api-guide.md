@@ -1,4 +1,4 @@
-# Repwise API Documentation
+# API Documentation
 
 This guide provides documentation for the Repwise API, allowing developers to integrate Repwise's CRM capabilities with other applications.
 

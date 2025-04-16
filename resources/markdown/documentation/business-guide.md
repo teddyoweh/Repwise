@@ -1,4 +1,4 @@
-# Repwise Business Guide
+# Business Guide
 
 ## Welcome to Repwise
 

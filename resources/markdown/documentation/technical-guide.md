@@ -1,4 +1,4 @@
-# Repwise Technical Guide
+# Technical Guide
 
 ## Architecture Overview
 
