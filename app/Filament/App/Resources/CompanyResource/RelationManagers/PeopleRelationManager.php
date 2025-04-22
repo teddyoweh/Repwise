@@ -10,6 +10,7 @@ use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Tables;
 use Filament\Tables\Table;
 use Repwise\CustomFields\Filament\Forms\Components\CustomFieldsComponent;
+use Repwise\CustomFields\Filament\Tables\Columns\CustomFieldsColumn;
 
 final class PeopleRelationManager extends RelationManager
 {
@@ -38,6 +39,7 @@ final class PeopleRelationManager extends RelationManager
             ->columns([
                 Tables\Columns\TextColumn::make('name'),
             ])
+            ->pushColumns(CustomFieldsColumn::forRelationManager($this))
             ->filters([
                 //
             ])
