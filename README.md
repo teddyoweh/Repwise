@@ -1,11 +1,10 @@
+# Repwise - Open-Source CRM Platform
+
 <p align="center">
   <a href="https://repwise.com">
     <img src="https://repwise.com/repwise-logo.svg" width="100px" alt="Repwise logo" />
   </a>
 </p>
-
-<h1 align="center">Repwise</h1>
-<h3 align="center">The Next-Generation Open-Source CRM Platform</h3>
 
 <p align="center">
   <a href="https://laravel.com/docs/12.x"><img src="https://img.shields.io/badge/Laravel-12.x-FF2D20?style=flat-square&logo=laravel" alt="Laravel 12"></a>
@@ -21,48 +20,69 @@
   <a href="#contributing">👥 Contributing</a>
 </p>
 
-<hr>
+---
 
 ## 🚀 Introduction
 
-Repwise is a powerful, flexible CRM platform built for modern businesses. Unlike traditional CRM solutions that force you to adapt your workflows to their systems, Repwise adapts to how *your* team actually works.
+Repwise is a powerful, adaptable CRM platform built with modern technologies to help businesses effectively manage client relationships, streamline sales processes, and enhance team collaboration. Unlike traditional CRM solutions, Repwise adapts to your team's workflows through customizable data models and workspace segmentation.
 
-**Key advantages:**
-- 💪 **Fully Customizable Data Model** - Create custom fields, relationships, and workflows without coding
-- 🔄 **Seamless Integration** - Connect with your existing tools through our comprehensive API
-- 🚀 **Built for Performance** - Engineered to handle enterprise-scale data without sacrificing speed
-- 🔒 **Privacy-Focused** - Self-host on your infrastructure with complete data ownership
-- 🌱 **Open Source** - Transparent, community-driven development with GPL-3.0 license
+**Core Strengths:**
+- 💪 **Fully Customizable** - Create and manage custom fields without coding
+- 🔄 **Multi-Team Support** - Securely manage multiple business units with isolated workspaces
+- 🚀 **Modern Technology** - Built on Laravel 12, PHP 8.3, and Filament 3
+- 🔒 **Privacy-Focused** - Self-host with complete data ownership
+- 🌱 **Open Source** - Transparent development with GPL-3.0 license
 
 <p align="center">
-  <a href="https://www.repwise.com">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://repwise.com/images/app-preview.png?a=1">
-      <source media="(prefers-color-scheme: light)" srcset="https://repwise.com/images/app-preview.png?a=1">
-      <img src="https://repwise.com/images/app-preview.png?a=1" alt="Repwise Dashboard" style="max-width: 100%; border-radius: 8px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);" />
-    </picture>
-  </a>
+  <img src="https://repwise.com/images/app-preview.png?a=1" alt="Repwise Dashboard" style="max-width: 100%; border-radius: 8px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);" />
 </p>
 
 ## ✨ Features
 
-- **360° Customer View** - Unified profiles combining contact details, interaction history, and opportunities
-- **Dynamic Pipelines** - Customizable sales funnels that adapt to your unique sales process
-- **Task Management** - Track and prioritize work across your team with smart assignments
-- **Rich Reporting** - Data-driven insights with customizable dashboards and exportable reports
-- **User Permissions** - Fine-grained access control to protect sensitive customer data
-- **White-Labeling** - Fully rebrand the platform for your organization or clients
-- **Multi-Team Support** - Securely manage multiple business units with team isolation
+Repwise includes a robust set of features to help you manage your business relationships:
+
+- **Contact Management**
+    - Unified company and people profiles
+    - Custom fields for contacts and organizations
+    - LinkedIn profile integration
+
+- **Sales Pipeline**
+    - Visual kanban board for opportunities
+    - Customizable sales stages
+    - Deal tracking with monetary values
+
+- **Task Management**
+    - Task assignment and tracking
+    - Visual task board by status and priority
+    - Due date management
+    - Task notifications
+
+- **Notes & Documentation**
+    - Rich text editor for detailed notes
+    - Notes linked to companies, people, and opportunities
+    - Collaborative note-taking
+
+- **Team Collaboration**
+    - Team-based workspaces
+    - Role-based access control
+    - Team member invitations
+    - Personal and shared workspace segmentation
+
+- **Security**
+    - Two-factor authentication
+    - Social login (Google, GitHub)
+    - API token management
+    - Secure password handling
 
 ## 🏁 Quick Start
 
 ### Prerequisites
 
-- PHP 8.3+ with PostgreSQL, GD, and required extensions
-- Node.js 16+
+- PHP 8.3+ with PostgreSQL support
 - Composer
+- Node.js & NPM
 
-### Installation in 5 Minutes
+### Installation
 
 ```bash
 # Clone the repository
@@ -73,46 +93,58 @@ cd repwise
 composer install
 npm install
 
-# Set up environment
+# Set up environment and database
 cp .env.example .env
 php artisan key:generate
 
-# Run migrations and link storage
+# Configure your database in .env then run migrations
 php artisan migrate
+
+# Link storage for file uploads
 php artisan storage:link
 
-# Build assets and start server
+# Build assets and start the development server
 npm run dev
 php artisan serve
 ```
 
-Visit `http://localhost:8000` in your browser and create your admin account to get started!
-
-For detailed setup instructions, including production deployment, see our [Technical Guide](resources/markdown/documentation/technical-guide.md).
+Visit `http://localhost:8000` in your browser and create your admin account to get started.
 
 ## 📚 Documentation
 
-Repwise comes with comprehensive documentation to help you get the most out of the platform:
+Repwise comes with comprehensive documentation:
 
-- [Business Guide](resources/markdown/documentation/business-guide.md) - Overview of Repwise from a business perspective
-- [Quick Start Guide](resources/markdown/documentation/quick-start-guide.md) - Step-by-step guide for new users
+- [Business Guide](resources/markdown/documentation/business-guide.md) - Using Repwise from a business perspective
+- [Quick Start Guide](resources/markdown/documentation/quick-start-guide.md) - Step-by-step getting started guide
 - [Technical Guide](resources/markdown/documentation/technical-guide.md) - Architecture and development information
 - [API Documentation](resources/markdown/documentation/api-guide.md) - Integration with the Repwise API
 
-## 🧩 Premium Component
+## 🧩 Premium Components
 
-While Repwise is fully open-source, we offer one premium component that significantly enhances its capabilities:
+While Repwise is fully open-source, it offers an optional premium component:
 
-**Data Model (Custom Fields)** - This Filament plugin provides powerful dynamic data management throughout the application, enabling unlimited customization possibilities without coding.
+**Custom Fields** - A Filament plugin providing dynamic data modeling capabilities throughout the application, enabling unlimited customization possibilities without coding.
 
 - [Documentation](https://custom-fields.repwise.com/introduction)
 - [Marketplace](https://filamentphp.com/plugins/repwise-custom-fields)
 
-This is the only paid component in the Repwise ecosystem and supports ongoing development of the open-source platform.
+This premium component supports ongoing development of the open-source platform.
+
+## 🔧 Tech Stack
+
+Repwise is built with modern technologies:
+
+- **Backend**: PHP 8.3, Laravel 12
+- **Frontend**: Tailwind CSS, Alpine.js
+- **Admin Interface**: Filament 3
+- **Database**: PostgreSQL (recommended), SQLite support for development
+- **Authentication**: Laravel Jetstream, Laravel Fortify
+- **Queue Processing**: Laravel Horizon
+- **Error Tracking**: Sentry integration
 
 ## 🤝 Contributing
 
-We welcome contributions from developers of all skill levels! Here's how to get started:
+We welcome contributions from developers of all skill levels!
 
 ### Development Workflow
 
@@ -126,12 +158,12 @@ We welcome contributions from developers of all skill levels! Here's how to get 
 
 For more details, see our [Contributing Guide](CONTRIBUTING.md).
 
-## 🌟 Community
-
-- Join our [Discord community](https://discord.gg/repwise)
-- Follow us on [Twitter](https://twitter.com/repwise)
-- Subscribe to our [YouTube channel](https://youtube.com/repwise) for tutorials
-
 ## 📝 License
 
-Repwise is open-sourced software licensed under the [GPL-3.0 license](LICENSE).
+Repwise is open-source software licensed under the [GPL-3.0 license](LICENSE).
+
+---
+
+<p align="center">
+  Built with ❤️ by the Repwise Team
+</p>
