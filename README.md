@@ -34,7 +34,7 @@ Repwise is a powerful, adaptable CRM platform built with modern technologies to 
 - 🌱 **Open Source** - Transparent development with GPL-3.0 license
 
 <p align="center">
-  <img src="https://repwise.com/images/app-preview.png?a=1" alt="Repwise Dashboard" style="max-width: 100%; border-radius: 8px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);" />
+  <img src="https://repwise.com/images/github-preview-light.png" alt="Repwise Dashboard" style="max-width: 100%; border-radius: 8px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);" />
 </p>
 
 ## ✨ Features
