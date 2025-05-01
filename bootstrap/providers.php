@@ -10,4 +10,5 @@ return [
     App\Providers\HorizonServiceProvider::class,
     App\Providers\JetstreamServiceProvider::class,
     App\Providers\MacroServiceProvider::class,
+    Repwise\Documentation\DocumentationServiceProvider::class,
 ];
