@@ -45,7 +45,7 @@ final class DocumentationServiceProvider extends ServiceProvider
     private function registerComponents(): void
     {
         // Register components with the 'documentation::' namespace
-        Blade::componentNamespace('Repwise\\Documentation\\View\\Components', 'documentation');
+        Blade::componentNamespace('Repwise\\Documentation\\Components', 'documentation');
 
         // Register anonymous components
         $this->loadViewComponentsAs('documentation', []);
