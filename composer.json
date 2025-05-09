@@ -53,6 +53,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
+            "Repwise\\Admin\\": "app-modules/Admin/src",
             "Repwise\\Documentation\\": "app-modules/Documentation/src",
             "Repwise\\OnboardSeed\\": "app-modules/OnboardSeed/src",
             "Database\\Factories\\": "database/factories/",
