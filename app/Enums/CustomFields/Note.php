@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace App\Enums\CustomFields;
 
-use App\Enums\EnumValues;
 use Repwise\CustomFields\Enums\CustomFieldType;
 
 /**
@@ -13,7 +12,6 @@ use Repwise\CustomFields\Enums\CustomFieldType;
 enum Note: string
 {
     use CustomFieldTrait;
-    use EnumValues;
 
     case BODY = 'body';
 
