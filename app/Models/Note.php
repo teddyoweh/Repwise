@@ -26,11 +26,11 @@ use Repwise\CustomFields\Models\Contracts\HasCustomFields;
 final class Note extends Model implements HasCustomFields
 {
     use HasCreator;
+
     /** @use HasFactory<NoteFactory> */
     use HasFactory;
 
     use HasTeam;
-
     use SoftDeletes;
     use UsesCustomFields;
 
