@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://repwise.dev">🌐 Website</a> ·
-  <a href="https://repwise.dev/documentation">📚 Documentation</a>
+  <a href="https://repwise.dev/documentation.html">📚 Documentation</a>
 </p>
 
 <p align="center">
